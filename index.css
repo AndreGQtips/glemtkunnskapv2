@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ubuntu";
+  font-size: 17px;
+  color: ghostwhite;
+  scroll-behavior: smooth;
+}
+
+nav {
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  margin-top: 200px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  border-radius: 40px 40px 40px 40px;
+  float: center;
+  margin: 2px;
+  opacity: 0.7;
+}
+
+nav .container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+nav .container ul li {
+  margin: auto;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: ghostwhite;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18;
+}
+
+nav .container ul li.active a {
+  color: ghostwhite;
+}
+
+nav ul li:hover {
+  transition: 2s;
+  background-color: rgb(0, 141, 0);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 50px;
+}
+
+nav ul li a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: #7e8081;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#hjem {
+  background-image: url("./Bilder/blick-von-der-peer-gynt-hytta-richtung.jpeg");
+  background-size: cover;
+  margin-top: -65px;
+}
+
+#hjem h1 {
+  text-align: center;
+  position: absolute;
+  margin-top: -440px;
+  color: ghostwhite;
+}
+
+#hjem p {
+  text-align: center;
+  margin-bottom: -800px;
+  font-size: medium;
+  color: black;
+}
+
+#wrapper {
+  width: 650px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#textbox {
+  font-family: fantasy;
+  font-size: large;
+  font-style: italic;
+  margin-top: 550px;
+  position: sticky;
+  width: 660px;
+  height: 550px;
+  opacity: 0.8;
+  top: 50px;
+  left: 390px;
+  text-align: center;
+  border-radius: 40px 40px 40px 40px;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+}
+
+#content {
+  padding: 0px 30px;
+  color: black;
+}
+
+#bygg {
+  background-image: url("./Bilder/IMG_3350.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  height: 850px;
+}
+
+#bygg h2 {
+  color: ghostwhite;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  margin-top: -600px;
+  background-color: #8a6e2f;
+  border: 1px solid #fedb37;
+  display: block;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+#jordbruk1 {
+  background-image: url("./Bilder/Steinbro.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  height: 850px;
+}
+
+#jordbruk1 h2 {
+  color: ghostwhite;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  margin-top: -550px;
+  background-color: #8a6e2f;
+  border: 1px solid #fedb37;
+  display: block;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+#industrialiseringen {
+  background-image: url("./Bilder/Barniarbeid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  height: 850px;
+}
+
+#industrialiseringen h2 {
+  color: ghostwhite;
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  margin-top: -550px;
+  background-color: #8a6e2f;
+  border: 1px solid #fedb37;
+  display: block;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Arapey|Cantarell|Comfortaa|Khand|Russo+One|Ubuntu");
+
+/* Start Body */
+
+body {
+  /*   background:  */
+
+  box-sizing: border-box;
+  color: #444;
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+  font: 16px;
+}
+
+h1 {
+  margin-bottom: 7%;
+}
+
+/*tooltip Box*/
+.con-tooltip {
+  position: relative;
+  background: radial-gradient(
+      ellipse farthest-corner at right bottom,
+      #fedb37 0%,
+      #fdb931 8%,
+      #9f7928 30%,
+      #8a6e2f 40%,
+      transparent 80%
+    ),
+    radial-gradient(
+      ellipse farthest-corner at left top,
+      #ffffff 0%,
+      #ffffac 8%,
+      #d1b464 25%,
+      #5d4a1f 62.5%,
+      #5d4a1f 100%
+    );
+  border-radius: 9px;
+  padding: 2px 25px;
+  margin: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*tooltip */
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0.4;
+  width: 200%;
+  padding: 0px 20px;
+  background: #333;
+  color: ghostwhite;
+  font-size: smaller;
+  position: absolute;
+  top: -140%;
+  left: -25%;
+  border-radius: 9px;
+  font: 16px;
+  transform: translateY(9px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
+}
+
+/* tooltip  after*/
+.tooltip::after {
+  content: " ";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 12px 12.5px 0 12.5px;
+  border-color: #333 transparent transparent transparent;
+  position: absolute;
+  left: 40%;
+}
+
+.con-tooltip:hover .tooltip {
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-in-out infinite alternate;
+}
+@keyframes odsoky {
+  0% {
+    transform: translateY(6px);
+  }
+  100% {
+    transform: translateY(1px);
+  }
+}
+
+/*hover ToolTip*/
+.left:hover {
+  transform: translateX(-6px);
+}
+.top:hover {
+  transform: translateY(-6px);
+}
+.bottom:hover {
+  transform: translateY(6px);
+}
+.right:hover {
+  transform: translateX(6px);
+}
+
+/*left*/
+
+.left .tooltip {
+  top: -20%;
+  left: -170%;
+}
+
+.left .tooltip::after {
+  top: 40%;
+  left: 90%;
+  transform: rotate(-90deg);
+}
+
+/*bottom*/
+
+.bottom .tooltip {
+  top: 115%;
+  left: -20%;
+}
+
+.bottom .tooltip::after {
+  top: -17%;
+  left: 40%;
+  transform: rotate(180deg);
+}
+
+/*right*/
+
+.right .tooltip {
+  top: -20%;
+  left: 115%;
+}
+
+.right .tooltip::after {
+  top: 40%;
+  left: -12%;
+  transform: rotate(90deg);
+}
+
+h3 {
+  background: #333;
+  color: bisque;
+  padding: 10px 20px;
+  border-radius: 56px;
+  width: 8em;
+  margin: 20% auto 1% auto;
+}
+
+footer {
+  background-image: url(./Bilder/l1tyaoraTQaFV02hmGJv_file.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+.space {
+  margin-top: 48vh;
+}
