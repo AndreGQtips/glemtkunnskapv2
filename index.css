@@ -92,6 +92,7 @@ section {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  border-bottom: black 10px solid;
 }
 
 #hjem {
